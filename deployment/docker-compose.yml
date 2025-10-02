@@ -4,8 +4,7 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - python-backend
-      - flutter-backend
+      - backend
     command: sh -c "npm install && npm test -- --watchAll=false || true"
 
   backend:
