@@ -1,6 +1,7 @@
 services:
   frontend:
-    build: ../frontend
+    build:
+      context: ./frontend
     ports:
       - "3000:3000"
     depends_on:
@@ -8,7 +9,8 @@ services:
     command: sh -c "npm install && npm test -- --watchAll=false || true"
 
   backend:
-    build: ../backend
+    build:
+      context: ./backend
     ports:
       - "8080:8080"
     depends_on:
