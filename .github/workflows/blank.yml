@@ -27,8 +27,8 @@ jobs:
 
       # 4. Build and run all containers via docker-compose
       - name: Build and run containers
-        run: docker compose up --build --abort-on-container-exit
+        run: docker compose -f deployment/docker-compose.yml up --build --abort-on-container-exit
 
       # 5. Tear down containers after tests
       - name: Tear down
-        run: docker compose down --volumes --remove-orphans
+        run: docker compose -f deployment/docker-compose.yml down --volumes --remove-orphans
