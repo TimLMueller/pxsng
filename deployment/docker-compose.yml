@@ -1,6 +1,6 @@
 services:
   frontend:
-    build: ./frontend
+    build: ../frontend
     ports:
       - "3000:3000"
     depends_on:
@@ -8,7 +8,7 @@ services:
     command: sh -c "npm install && npm test -- --watchAll=false || true"
 
   backend:
-    build: ./backend/flutter
+    build: ../backend/flutter
     ports:
       - "8080:8080"
     depends_on:
