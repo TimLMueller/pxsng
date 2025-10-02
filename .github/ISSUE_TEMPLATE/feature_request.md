@@ -1,10 +1,10 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: New Feature idears for thir Project
 title: ''
 labels: ''
 assignees: ''
-
+projects: ["pxsng/1"]
 ---
 
 **Is your feature request related to a problem? Please describe.**
