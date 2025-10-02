@@ -1,3 +1,11 @@
+---
+name: Feature request
+about: New Feature idears for thir Project
+title: ''
+labels: ''
+assignees: ''
+---
+
 # Description / User Story
 
 _Describe the issue or feature in detail, provide examples, screenshots, etc._
