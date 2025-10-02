@@ -6,7 +6,7 @@ services:
       - "3000:3000"
     depends_on:
       - backend
-    command: sh -c "npm install && npm test -- --watchAll=false || true"
+    command: sh -c "npm install && npm test -- --watchAll=false"
 
   backend:
     build:
@@ -15,7 +15,7 @@ services:
       - "8080:8080"
     depends_on:
       - oracle-db
-    command: sh -c "flutter pub get && flutter test || true"
+    command: sh -c "flutter pub get && flutter test"
 
   oracle-db:
     image: container-registry.oracle.com/database/express:21.3.0-xe
