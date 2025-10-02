@@ -8,7 +8,7 @@ services:
     command: sh -c "npm install && npm test -- --watchAll=false || true"
 
   backend:
-    build: ../backend/flutter
+    build: ../backend
     ports:
       - "8080:8080"
     depends_on:
