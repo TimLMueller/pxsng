@@ -1,20 +1,14 @@
----
-name: Feature request
-about: New Feature idears for thir Project
-title: ''
-labels: ''
-assignees: ''
-projects: ["pxsng/1"]
----
+# Description / User Story
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+_Describe the issue or feature in detail, provide examples, screenshots, etc._
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+# Additional Information
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+_Any additional information, configuration or data that might be necessary to resolve the issue._
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+# Acceptance Criteria
+
+- [ ] _List of criteria that must be met for this issue to be considered resolved._
+- [ ] _For bugs, this will often be 'The bug no longer occurs.'_
+- [ ] _For features, this will often be 'The feature is implemented or the individual functionality is complete.'_
+
