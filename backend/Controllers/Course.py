@@ -1,9 +1,9 @@
 from flask_restx import Namespace, Resource, fields
 
-api = Namespace("courses", description="courses related operations")
+api = Namespace("courses", description="course related operations")
 
 course_model = api.model(
-    "Courses",
+    "Course",
     {
         "id": fields.Integer(),
         "name": fields.String(),
